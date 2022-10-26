@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    color: white;
+    height: auto;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+h3 {
+    padding: 2rem 3rem 1rem 3rem;
+    font-size: 30px;
+}
+
+ ul.info  {
+    padding: 0 3rem;
+}
+
+.info li {
+    padding: .4rem;
+}
+
+.containerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    font-size: 3rem;
+}
+

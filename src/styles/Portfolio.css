@@ -1,0 +1,64 @@
+.portfolio h2 {
+    padding-top: 1.6rem;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.portfolio .container {
+    padding: 0;
+    width: 100%;
+    display: block;
+    height: auto;
+    background-color:rgba(12, 12, 12, 0.1);
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .slider img {
+    margin-top: 5px;
+    margin-bottom: 3rem;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none; 
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.01);
+}
