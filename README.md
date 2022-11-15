@@ -3,11 +3,11 @@ https://kanaszewska.github.io/Company_PortfolioTypeScript/
 
 
 # Technologies Used
-HTML5
-
-CSS3
-
-JavaScript
+* HTML5
+* CSS3
+* JavaScript
+* React
+* TypeScript
 
 
 
