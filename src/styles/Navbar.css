@@ -1,13 +1,8 @@
-* {
+.header {
     margin: 0;
     padding: 0;
-}
-
-.header {
     height: 90px;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
@@ -30,7 +25,7 @@
 .header .nav-menu {
     display: flex;
     width: 70%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     justify-content: space-around;
 }
 
@@ -62,8 +57,8 @@ color: bisque;
     }
 
     .header .nav-menu {
-        width: 80%;
-        font-size: .9rem;
+        width: 100%;
+        font-size: .55rem;
     }
 
     .header .navbar img {

@@ -29,3 +29,10 @@ h3 {
     font-size: 3rem;
 }
 
+@media only screen and (max-width: 800px) {
+
+    .containerFooter {
+        font-size: 2rem;
+        width: 10rem;
+    }
+}

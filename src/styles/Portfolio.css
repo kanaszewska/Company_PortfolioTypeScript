@@ -26,7 +26,7 @@
     margin-top: 5px;
     margin-bottom: 3rem;
     height: auto;
-    width: 100%;
+    width: 75%;
     object-fit: cover;
     color: rgba(255, 255, 255, .1);
     border-radius: 5px;
@@ -35,7 +35,7 @@
 .right-arrow {
     position: absolute;
     top: 50%;
-    right: 22px;
+    right: 16px;
     font-size: 3rem;
     z-index: 10;
     cursor: pointer;
@@ -45,8 +45,8 @@
 .left-arrow {
     position: absolute;
     top: 50%;
-    left: 22px;
-    font-size: 3rem;
+    left: 16px;
+    font-size: 2.8rem;
     z-index: 10;
     cursor: pointer;
     user-select: none; 
@@ -54,11 +54,11 @@
 
 .slide {
     opacity: 0;
-    transition-duration: 1s ease;
+    transition-duration: 3s ease;
 }
 
 .slide.active {
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: 3s;
     transform: scale(1.01);
 }
