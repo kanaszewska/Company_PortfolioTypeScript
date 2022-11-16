@@ -1,8 +1,15 @@
 .container {
+    padding-top: 90px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color:rgba(85, 107, 47, .3);
+    background-color:rgba(12, 12, 12, 0.1);
+}
+
+.container .info {
+    padding: 2rem 5rem 0 5rem;
+    font-size: 1.6rem;
+    font-style:italic;
 }
 
 .container h2 {
@@ -14,34 +21,35 @@
     margin-bottom: 1.5rem;
 }
 
-.container .info {
-    padding: 2rem 5rem 0 5rem;
-    font-size: 1.6rem;
-    font-style:italic;
-}
-
 .about .container img {
-    padding: 0;
+    padding: 1rem;
     height: 35rem;
     width: auto;
-    border-radius: 1px;
+    border-radius: 8rem;
 }
 
 .about .button {
     margin: 3rem 0;
     width: 300px;
-    background-color:rgba(85, 107, 47, .9);
+    background-color:rgb(0, 0, 0, 0.8);
+    border: 2px solid black;
     color: white;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .about .button:hover {
-    scale: 110%;
+    scale: 105%;
+    background-color:black;
+    border: 2px solid black;
 }
 
 
 @media only screen and (max-width: 800px) {
+    .container {
+        display: inline-table;
+    }
+
     .container .info {
         padding: 2rem 1rem 0 1rem;
         font-size: 1.3rem;

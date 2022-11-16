@@ -8,7 +8,7 @@
 }
 
 .portfolio .container {
-    padding: 0;
+    padding-top: 90px;
     width: 100%;
     display: block;
     height: auto;
@@ -50,6 +50,11 @@
     z-index: 10;
     cursor: pointer;
     user-select: none; 
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+    scale: 105%;
 }
 
 .slide {
