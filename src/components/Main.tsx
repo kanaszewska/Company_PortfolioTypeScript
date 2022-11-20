@@ -6,7 +6,7 @@ function Main() {
     <div className="main">
       <div className="content">
         <p>Call us</p>
-        <p>111-111-1111</p>
+        <p>+48 (22)-134-34-63</p>
         <p>Interior design</p>
         <p>My home is me!</p>
         <button className="button">Write to us</button>

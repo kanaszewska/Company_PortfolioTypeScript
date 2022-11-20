@@ -9,13 +9,13 @@ function Footer() {
         <h3>Contact</h3>
         <ul className="info">
           <li>
-            <p>ul. Baker Street 15</p>
+            <p>ul. Koszykowa 15</p>
           </li>
           <li>
-            <p>10-005 New York</p>
+            <p>03-673 Warsaw</p>
           </li>
           <li>
-            <p>+1-111-111-1111</p>
+            <p>+48(22)-134-34-63</p>
           </li>
           <li>
             <p>company@gmail.com</p>
