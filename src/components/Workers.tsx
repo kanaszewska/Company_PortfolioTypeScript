@@ -1,10 +1,10 @@
-import React from 'react'
-import img2 from '../styles/images/img2.jpg'
-import img3 from '../styles/images/img3.jpg'
-import img4 from '../styles/images/img4.jpg'
-import img5 from '../styles/images/img5.jpg'
+import React from "react";
+import img2 from "../styles/images/img2.jpg";
+import img3 from "../styles/images/img3.jpg";
+import img4 from "../styles/images/img4.jpg";
+import img5 from "../styles/images/img5.jpg";
 
-import '../styles/Workers.css'
+import "../styles/Workers.css";
 
 function Workers() {
   return (
@@ -63,7 +63,7 @@ function Workers() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Workers
+export default Workers;

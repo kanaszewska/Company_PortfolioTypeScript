@@ -1,6 +1,6 @@
-import React from 'react'
-import '../styles/About.css'
-import img1 from '../styles/images/img1.jpg';
+import React from "react";
+import "../styles/About.css";
+import img1 from "../styles/images/img1.jpg";
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

@@ -1,24 +1,24 @@
-import React, { useState } from 'react'
-import logo from '../styles/images/logo.jpg'
-import '../styles/Navbar.css'
+import React, { useState } from "react";
+import logo from "../styles/images/logo.jpg";
+import "../styles/Navbar.css";
 
 function Navbar() {
-  const [click, setClick] = useState<boolean>(false)
+  const [click, setClick] = useState<boolean>(false);
 
   const handleClick = () => {
-    setClick(!click)
-  }
+    setClick(!click);
+  };
 
   return (
     <div className="header">
       <nav className="navbar">
-        <a href="/" className="logo">
+        <a href="#home" className="logo">
           <img src={logo} alt="logo" />
         </a>
         <div className="architect" onClick={handleClick}></div>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="/">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="nav-item">
             <a href="#about">About us</a>
@@ -35,7 +35,7 @@ function Navbar() {
         </ul>
       </nav>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

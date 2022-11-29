@@ -1,17 +1,17 @@
-import React from 'react'
-import '../styles/Main.css'
+import React from "react";
+import "../styles/Home.css";
 
-function Main() {
+function Home() {
   return (
-    <div className="main">
+    <div className="main" id="home">
       <div className="content">
         <p>Call us</p>
-        <p>+48 (22)-134-34-63</p>
+        <p>111-111-1111</p>
         <p>Interior design</p>
         <p>My home is me!</p>
         <button className="button">Write to us</button>
       </div>
     </div>
-  )
+  );
 }
-export default Main
+export default Home;
