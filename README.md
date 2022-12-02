@@ -10,6 +10,16 @@ https://kanaszewska.github.io/Company_PortfolioTypeScript/
 * TypeScript
 
 
+# Features
+* Responsive design
+* Scroll layout after use navigation
+* Animated texts, buttons and icons
+* Validated contact form
+* Sending email by my form
+* Modal windows
+* I used fonts from Google Fonts
+* I used icons from React Icons
+
 
 # Screenshots
 
