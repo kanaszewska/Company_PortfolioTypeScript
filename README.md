@@ -13,12 +13,10 @@ https://kanaszewska.github.io/Company_PortfolioTypeScript/
 # Features
 * Responsive design
 * Scroll layout after use navigation
-* Animated texts, buttons and icons
-* Validated contact form
-* Sending email by my form
-* Modal windows
+* Check portfolio using slideshow
 * I used fonts from Google Fonts
 * I used icons from React Icons
+
 
 
 # Screenshots
